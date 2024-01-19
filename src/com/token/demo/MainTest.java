@@ -1,5 +1,6 @@
 /*
-* 没成功
+* 示例代码 hutools https://e-cloudstore.com/v2/notice/downLoadDoc?tokenKey=cloudstore/2022/09/T/64eeabd2-dd57-46d6-ad75-1cce8b532417.wfile&fileName=%E6%BC%94%E7%A4%BA%E4%BB%A3%E7%A0%81.zip&appId=af09c25938714c26b9736f535ca20fc9&access_token=
+* * 没成功
 * 参考2 https://blog.csdn.net/superblade12/article/details/129492438
 * RSA https://the-x.cn/zh-cn/cryptography/Rsa.aspx
 *
@@ -40,7 +41,7 @@ public class MainTest {
 
     public static void main(String[] args) {
 //        testRestful("http://127.0.0.1:8080","/api/system/info/getOSinfo",null);
-        testRestful("http://127.0.0.1:8080","/api/system/appmanage/route",null);
+        testRestful("http://127.0.0.1:8080","/api/workflow/paService/getAllWorkflowRequestList",null);
     }
 
     /**

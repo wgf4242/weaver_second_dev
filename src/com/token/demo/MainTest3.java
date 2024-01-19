@@ -37,9 +37,9 @@ public class MainTest3 {
      */
     private static final String APPID = "62acf88c-55d0-465c-b08d-99cd36271231";
     public static void main(String[] args) {
-//        testRestful("http://127.0.0.1:8080","/api/demo01/getFormDemo",null);
+        testRestful("http://127.0.0.1:8080","/api/demo01/getFormDemo",null);
 //        testRestful("http://127.0.0.1:8080","/api/system/appmanage/route",null);
-        testRestful("http://127.0.0.1:8080","/api/workflow/paService/getHandledWorkflowRequestList",null);
+//        testRestful("http://127.0.0.1:8080","/api/workflow/paService/getHandledWorkflowRequestList",null);
 //        testRestful("http://10.10.10.40","/api/system/appmanage/route",null);
     }
     /**
